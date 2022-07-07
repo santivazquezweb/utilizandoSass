@@ -1,0 +1,16 @@
+// anidacion
+.navUL{
+	display: flex;
+	justify-content: flex-end;
+	background-color: $mainColor;
+	li{
+		list-style: none;
+		margin-right: 6em;
+	a{
+		font-size: 1em;
+		text-decoration: none;
+		font-family: $mainFont;
+	}
+	}
+}
+
