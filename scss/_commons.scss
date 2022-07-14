@@ -3,3 +3,34 @@
 	padding: 0;
 }
 
+body{
+   background-image: url(../img/fondito.png);
+   background-attachment: fixed;
+   }
+
+ p{
+	font-family: $mainFont;
+	font-size: $textP;
+	text-align: $textCen;
+}
+
+h1,h2,h3{
+	font-family: $treFont;
+	font-size: $textAlt;
+	line-height: 2rem;
+	font-weight: 800;
+	color: $secondaryColor;
+	text-align: $textCen;
+}
+
+h4{
+	font-family: $treFont;
+	font-size: $textSecon;
+     line-height: 3.5rem;
+     text-align: $textCen;
+     color: $secondaryColor;
+}
+h5{
+	font-family: $treFont;
+	text-align: $textCen;
+}

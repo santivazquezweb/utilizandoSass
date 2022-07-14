@@ -41,3 +41,16 @@
 	align-items: center;
      padding: 20px;
 }
+
+
+.cenTex{
+	font-size: 1em;
+	text-align: $textCen;
+	font-family: $fourFont;
+	font-weight: 500;
+}
+
+.zonEnv{
+	padding: 30px 50px;
+	border: solid rgba(238, 188, 247, .5) 
+}

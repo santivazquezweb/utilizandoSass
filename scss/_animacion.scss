@@ -1,0 +1,16 @@
+.headerAnimacion{
+	height: 40vw;
+	animation-name: headerAnimacion;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-size: cover;
+}
+
+@keyframes headerAnimacion{
+	0%{background-image: url(../img/header.png);}
+	25%{background-image: url(../img/mix.jpg);}
+	50%{background-image: url(../img/producto12.jpeg);}
+	75%{background-image: url(../img/producto22.jpeg);}
+	100%{background-image: url(../img/producto4.jpeg);}
+}
