@@ -43,5 +43,6 @@ $colores:(
 	);
 
 .bgColor{
-   background-color: map-get($map:$colores, $key:'cinco');
+   background-color: map-get($map:$colores, $key:'uno');
 }
+

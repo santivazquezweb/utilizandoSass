@@ -7826,7 +7826,7 @@ textarea.form-control-lg {
   padding: 10px; }
   .sectionMod article {
     width: 100%;
-    height: 280px;
+    height: auto;
     margin: 100px auto;
     padding: 20px 40px;
     border: solid rgba(238, 188, 247, 0.5);
@@ -7847,11 +7847,6 @@ textarea.form-control-lg {
       line-height: 2rem;
       font-weight: 800;
       color: #83069E; }
-
-.encabezadoImg {
-  width: 100%;
-  height: 700px;
-  padding: 30px 350px; }
 
 .pie {
   display: flex;
@@ -7885,8 +7880,7 @@ p {
 h1, .h1, h2, .h2, h3, .h3 {
   font-family: "Lato", sans-serif;
   font-size: 2em;
-  line-height: 2rem;
-  font-weight: 800;
+  line-height: 3.5rem;
   color: #83069E;
   text-align: center; }
 
@@ -7900,6 +7894,10 @@ h4, .h4 {
 h5, .h5 {
   font-family: "Lato", sans-serif;
   text-align: center; }
+
+.mapa {
+  display: flex;
+  justify-content: center; }
 
 .headerAnimacion {
   height: 40vw;
@@ -7921,6 +7919,10 @@ h5, .h5 {
   100% {
     background-image: url(../img/producto4.jpeg); } }
 
+.mapa {
+  display: flex;
+  justify-content: center; }
+
 .acordionMod {
   font-family: "Titillium Web", sans-serif;
   font-size: 1em; }
@@ -7929,8 +7931,11 @@ h5, .h5 {
   font-size: 1em;
   font-family: "Titillium Web", sans-serif; }
 
-.bgColor {
-  background-color: rgba(238, 188, 247, 0.5); }
+.colorPre {
+  background-color: #E0D7DD; }
+
+.btnCol {
+  background-color: #D871F3; }
 
 .btnMore, .btnRounded {
   width: 100px;
@@ -7953,4 +7958,4 @@ h5, .h5 {
   color: #D871F3; }
 
 .bgColor {
-  background-color: #E0D7DD; }
+  background-color: rgba(238, 188, 247, 0.5); }
